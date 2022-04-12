@@ -1,0 +1,46 @@
+les classes à créer:
+
+
+
+Voiture:
+  attributs:
+    - Marque
+    - Modèle
+    - Vitesse min
+    - Vitesse max
+  methode:
+     obtenir la vitesse pour un tour
+
+
+Circuit
+  attributs:
+    -Nom
+    -Distance
+  methodes
+   __str__ pour imprimer les noms de circuits  
+
+
+
+concurrent:
+   attributs:
+     -Nom
+     -Numero
+     -Voiture
+     -Liste de temps
+     -liste des vitesses moyennes par tour
+    methode:
+      Réaliser un tour (circuit)
+      __eq__ pour vérifier si les voitures sont identiques
+
+
+
+Course:
+    attributs
+      - Nom
+      -circuit
+      -Liste des concurents
+      -Nombre de tour
+    methodes:
+      -Ajouter un participant
+      -Faire la Course
+      -Obtenir le vainqueur
